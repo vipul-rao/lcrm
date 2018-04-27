@@ -1,0 +1,214 @@
+/*menu page css code*/
+#nav_menu{
+  background-image : url(/front/images/menu_heder.jpg);
+  height :650px;
+  -webkit-background-size :cover;
+  background-size         :cover;
+  background-position : center center;
+}
+.nav_menu{
+  background-image : url(/front/images/menu_heder.jpg);
+  height :675px;
+  -webkit-background-size :cover;
+  background-size         :cover;
+  background-position : center center;
+}
+
+.menu_padding{
+  padding:15rem 0 0 1rem;
+}
+.menu_header_logo{
+  color : #0080FF;
+}
+.background_menu_color{
+  background : #fff;
+}
+.menu_table td a{
+  padding-left:0;
+  color: rgba(37, 37, 37, 255);
+  font-family: 'Montserrat', sans-serif;
+  font-size :14px;
+  font-weight: bold;
+}
+.menu_table3 td a{
+  font-size: 18px;
+}
+
+.menu_icons_margin2{
+  margin-top:51px;
+  margin-bottom :51px;
+}
+.menu_icons_margin3{
+  margin-top:39px;
+  margin-bottom :39px;
+}
+.menu_padding_top{
+  padding-top: 28px;
+}
+.menu_overlay{
+  background-color : rgba(47, 47, 47, 0.8);
+  height :675px;
+}
+
+//    menu2 styles
+.menu_position1{
+  width: 300px;
+  display: none;
+}
+.menu_position2{
+  width: 300px;
+  display: none;
+}
+.menu_position2,.menu_position5,.menu_position4,.menu_position1{
+  display: none;
+}
+.nav_menu2{
+  position: relative;
+}
+.menu_position1.right_menu2{
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+}
+.menu_position2.right_menu2{
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+}
+.menu_close,.menu_close5,.menu_close4,.menu_close3{
+  display: none;
+  cursor : pointer;
+}
+.menu_table td{
+  padding-left: 0;
+}
+.menu_table td a:hover,.menu_table4 li a:hover,.menu_table5 td a:hover{
+  color : #8799a3;
+}
+.menu_table .menu_border_top{
+  border :none;
+}
+// menu3 styles
+.menu_table3 td{
+  border :none;
+  padding-top:6px;
+  padding-bottom :6px;
+}
+.menu_table3{
+  margin-bottom :104px;
+}
+.menu_toggle_icon,.menu_toggle_icon3,.menu_toggle_icon4,.menu_toggle_icon5{
+  cursor: pointer;
+}
+
+// menu4 styles
+.menu_table4 td{
+  border :none;
+}
+.menu_position4.right_menu4{
+  position: absolute;
+  display: block;
+  //left: 300px;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size :20px;
+  font-weight: bold;
+  color: #fff;
+  top: 270px;
+  //width: 720px;
+}
+
+.menu_table4{
+  margin-bottom:160px;
+}
+.menu_table4  a{
+  color : #fff;
+  font-size: 20px;
+}
+.menu_table5 a{
+  color : #fff;
+  font-size :24px;
+}
+.menu_position2 .fa,.menu_position5 .fa,.menu_position4 .fa{
+  font-size :16px;
+}
+.menu_position2 .menu_copy,.menu_position5 .menu_copy, .menu_position4 .menu_copy{
+  font-size :16px;
+  font-family :'Cambay',sans-serif;
+}
+.menu_overlay4{
+  background-color : rgba(37, 36, 36, 0.90);
+  height :675px;
+}
+.menu_ul{
+  list-style: none;
+  margin :0;
+  padding:0;
+}
+.menu_ul li{
+  float : left;
+  padding :0.75rem;
+}
+// menu style 5
+.menu_table5 tr td{
+  border:none;
+  padding-top:6px;
+  padding-bottom :6px;
+}
+.menu_position5.right_menu5{
+  position: absolute;
+  display: block;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size :20px;
+  font-weight: bold;
+  color: #fff;
+  top: 170px;
+}
+.hide_icon{
+  display : none;
+}
+@media (min-width:1024px) and (max-width: 1319px){
+  .menu_close2,.menu_close3{
+    margin-right :100px;
+  }
+
+}
+
+@media (min-width:320px) and (max-width: 767px){
+  .menu_position5.right_menu5{
+    left:0;
+  }
+  .menu_position4.right_menu4{
+    left:0;
+    top :140px;
+  }
+  .menu_table4 .menu_ul li{
+    display: block !important;
+    float : none;
+  }
+  .menu_table4{
+    margin-bottom :0;
+  }
+}
+@media (min-width:320px) and (max-width:575px){
+  .menu_icons_margin2{
+    margin-top :32px;
+    margin-bottom :32px;
+  }
+  .menu_icons_margin3{
+    margin-top :19px;
+    margin-bottom: 19px;
+  }
+}
+.menucontentcenter
+{
+  justify-content: center;
+  display: flex;
+}
+.menu5_closeicon
+{
+  right: 25px;
+}

@@ -1,0 +1,51 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'leads' => 'Conduz', 
+'new' => 'Criar lead', 
+'edit' => 'Editar lead', 
+'show' => 'Mostrar chumbo', 
+'delete' => 'Excluir lead', 
+'details' => 'Detalhes da equipe', 
+'creation_date' => 'Data de criação', 
+'opportunity' => 'Oportunidade', 
+'contact_name' => 'Nome de contato', 
+'country' => 'País', 
+'email' => 'O email', 
+'phone' => 'telefone', 
+'sales_team' => 'Equipe de vendas', 
+'company_name' => 'Nome da empresa', 
+'customer' => 'Cliente', 
+'address' => 'Endereço', 
+'state' => 'Estado', 
+'city' => 'Cidade', 
+'select_country' => 'Selecione o pais', 
+'select_state' => 'Selecione o estado', 
+'select_city' => 'Selecione a cidade', 
+'salesperson' => 'Pessoa de vendas', 
+'title' => 'Título', 
+'function' => 'Tipo de função', 
+'mobile' => 'Móvel', 
+'fax' => 'Fax', 
+'tags' => 'Tag', 
+'priority' => 'Prioridade', 
+'internal_notes' => 'Notas internas', 
+'calls' => 'Chamadas', 
+'company' => 'Empresa', 
+'product_name' => 'Nome do Produto', 
+'company_site' => 'Site da companhia', 
+'call' => 'Criar chamada', 
+'additionl_info' => 'Informação adicional', 
+'client_name' => 'Nome do cliente', 
+'agent_name' => 'Nome do agente', 
+'personal_info' => 'Informação pessoal', 
+'leads_by_priority' => 'Leva por prioridade', 
+'leads_by_month' => 'Total de leads por mês', 
+'import' => 'Leads de importação', 
+'newupload' => 'Carregar leads', 
+
+ 
+];

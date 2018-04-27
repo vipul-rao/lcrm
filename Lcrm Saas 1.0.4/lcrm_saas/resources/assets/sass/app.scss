@@ -1,0 +1,12 @@
+@import '~pace-progress/themes/blue/pace-theme-flash.css';
+@import 'bootstrap/bootstrap.scss';
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.css';
+@import '~select2/src/scss/core.scss';
+@import '~select2-bootstrap-theme/dist/select2-bootstrap.css';
+@import '~toastr/build/toastr.css';
+@import '~fullcalendar/dist/fullcalendar.css';
+@import '~flatpickr/dist/flatpickr.css';
+/*
+ * Load our styles
+ */
+@import './custom.scss';

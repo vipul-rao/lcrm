@@ -1,0 +1,53 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'staffs' => '员工', 
+'new' => '新员工', 
+'edit' => '编辑员工', 
+'delete_staff' => '删除员工', 
+'show_staff' => '展示员工', 
+'details' => '员工细节', 
+'full_name' => '全名', 
+'email' => '电子邮件', 
+'register' => '寄存器', 
+'first_name' => '名字', 
+'last_name' => '姓', 
+'phone_number' => '电话', 
+'password' => '密码', 
+'password_confirmation' => '确认密码', 
+'user_avatar' => '用户头像', 
+'read' => '读', 
+'write' => '写', 
+'delete' => '删除', 
+'permissions' => '权限', 
+'sales_teams' => '销售团队', 
+'invoices' => '发票', 
+'sales_orders' => '销售订单', 
+'quotations' => '语录', 
+'products' => '制品', 
+'meetings' => '会议', 
+'logged_calls' => '记录的呼叫', 
+'opportunities' => '机会', 
+'leads' => '信息', 
+'staff' => '员工', 
+'contacts' => '往来', 
+'info' => '基本信息', 
+'login' => '用户登录', 
+'date_time' => '约会时间', 
+'ip_address' => 'IP地址', 
+'invite' => '邀请', 
+'invite_cancel' => '取消邀请', 
+'invite_limit_exceed' => '由于邀请计数超出您的计划限制，因此无法发送邀请', 
+'invite_staffs' => '邀请员工', 
+'accept_invitation' => '接受邀请', 
+'cancel_invitation' => '取消邀请', 
+'send_invitation' => '发送邀请', 
+'emails' => '列出电子邮件（用分号分隔）', 
+'invalid-email' => '检查您的网站电子邮件地址', 
+'customers' => '顾客', 
+
+ 
+];

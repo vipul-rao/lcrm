@@ -1,0 +1,129 @@
+/****** 3.LEFT SIDEBAR ******/
+.left-aside {
+    width: 240px;
+    background: #FFF;
+    border-right: 1px solid #EEE;
+}
+.nav_profile .content-profile .media-heading{
+    padding-left: 10px;
+}
+.nav_profile .content-profile .icon-list{
+    padding-left: 5px;
+}
+.nav_profile .content-profile .icon-list li {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    padding: 5px;
+
+    a:hover {
+        color: #3295ff;
+    }
+}
+
+.content-header h1 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.badge {
+    font-weight: 400;
+}
+
+.sub-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li.active > a {
+    padding: 11px 20px 11px 17px;
+    background: #f8f8f8;
+    color: #3295ff;
+    border-left: 3px solid #3295ff;
+    transition: none;
+}
+
+#menu .navigation {
+    li > a {
+        border-right: 1px solid #EEE;
+    }
+
+    a,
+    a:hover,
+    li.active a {
+        text-decoration: none !important;
+    }
+}
+
+#menu .profile-left li > a:hover {
+    color: #0A1414;
+}
+
+#menu li > a:hover,
+#menu li.active > a i {
+    color: #3295ff;
+}
+
+#menu .menu-dropdown {
+    > ul {
+        background: #FFF;
+
+        > li {
+            > a {
+                padding-left: 37px;
+            }
+
+            &.active > a {
+                padding-left: 34px;
+            }
+        }
+    }
+}
+
+#menu .navigation {
+    padding: 0 0 15px;
+
+    a {
+        text-align: left;
+        color: #666;
+        position: relative;
+        display: block;
+        cursor: pointer;
+        line-height: 20px;
+        padding: 11px 20px;
+        transition: none;
+
+        .nav-text {
+            vertical-align: top;
+        }
+
+        i {
+            color: #333;
+            font-size: 18px;
+        }
+    }
+
+    .menu-icon {
+        display: inline-block;
+        margin-right: 5px;
+        line-height: 20px;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+#menu .fa.arrow:before {
+    content: "\f105";
+}
+
+#menu .active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+#menu li a{
+    font-size: 13px;
+}
+/******* END LEFT SIDEBAR *****/

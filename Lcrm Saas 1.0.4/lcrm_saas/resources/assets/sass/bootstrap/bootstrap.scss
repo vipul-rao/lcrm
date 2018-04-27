@@ -1,0 +1,22 @@
+/*===Import font===*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
+/*===import overriding variables===*/
+@import '~bootstrap/scss/functions';
+@import 'variables';
+/*===Import bootstrap===*/
+@import '~bootstrap/scss/bootstrap';
+
+//buttons
+.btn-warning,.btn-danger,.btn-success,.btn-mint{
+  color: $white;
+  &:hover{
+    color: $white;
+  }
+  &:active{
+    color: $white !important;
+  }
+}
+.btn-warning.disabled,.btn-danger.disabled,.btn-success.disabled,.btn-mint.disabled{
+  color: $white;
+  cursor: not-allowed;
+}

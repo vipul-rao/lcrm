@@ -1,0 +1,105 @@
+/*This is Footer CSS*/
+.footer
+{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.footer {
+  .fa-facebook {
+    color: #3B5998;
+  }
+  .fa-facebook:hover,.fa-twitter:hover,.fa-google-plus:hover,.fa-linkedin:hover,.fa-pinterest-p:hover {
+    transform: rotate(360deg);
+    transition: ease 1s;
+  }
+  .footer-text:hover
+  {
+    color:#0362bf !important;
+    cursor: pointer;
+  }
+
+    .fa-twitter
+    {
+      color: #0084b4;
+    }
+    .fa-google-plus
+    {
+      color:#d34836;
+    }
+    .fa-linkedin
+    {
+      color:#0077B5;
+    }
+    .fa-pinterest-p
+    {
+      color:#c8232c;
+    }
+  }
+
+
+   .footercolor
+  {
+    background-color: #e7e9ec;
+  }
+  footer .m_top
+  {
+    padding:68px 12px 68px 10px;
+  }
+  .fa-facebook:hover
+  {
+    color:#3B5998;
+  }
+  .fa-twitter:hover
+  {
+    color: #0084b4;
+  }
+  .fa-google-plus:hover
+  {
+    color:#d34836;
+  }
+  .fa-linkedin:hover
+  {
+color:#0077B5;
+  }
+  .fa-pinterest-p:hover
+  {
+    color:#c8232c;
+  }
+  .textcolor,.icon_textcolor{
+    color:#bbc7cd;
+    cursor: pointer;
+  }
+  footer .textcolor:hover
+  {
+    color:#8799a3;
+  }
+  footer .icons
+  {
+    font-size: 18px;
+  }
+.text-fontsize
+{
+  font-size: 16px;
+}
+  .bodysection a
+  {
+    text-decoration: none;
+  }
+  .menuicon
+  {
+    z-index:99;
+  }
+  footer .textcolor1:hover
+  {
+    color:#bbc7cd;
+    cursor: pointer;
+  }
+  .footer_icons{
+    padding:90px 12px 85px 10px;
+  }
+  .footer_icons_margin{
+    margin-bottom :2rem;
+  }
+  .footer_minus{
+    margin-left :-2px;
+  }

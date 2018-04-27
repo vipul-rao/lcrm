@@ -1,0 +1,330 @@
+/*portfolio1 css code*/
+  .portfolio2_menu {
+    position: absolute;
+    top: 36px;
+    left: 37%;
+
+  }
+
+  .portfolio1 {
+    .portfolio1_mtop
+    {
+     margin-top: 5rem;
+    }
+    //isotope css
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* force scrollbar, prevents initial gap */
+    html {
+      overflow-y: scroll;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    /* ---- grid ---- */
+
+    .grid {
+
+      width: 100%;
+
+    }
+
+    /* clear fix */
+    .grid:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    /* ---- .element-item ---- */
+
+    .grid-item,
+    .grid-sizer {
+      width: 33.33%;
+    }
+
+    .grid-item {
+      float: left;
+      margin-bottom: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+
+    }
+
+    .grid-item--width2 {
+      width: 66.66%;
+    }
+
+    .grid-item--width4 {
+      width: 100%;
+    }
+
+    .grid-item--height2 {
+
+      height: auto;
+    }
+    .grid-item--height3 {
+
+      height: auto;
+    }
+    .grid-item--height4 {
+
+      height: auto;
+
+    }
+    .grid-item--height5 {
+
+      height: auto;
+    }
+    .grid-item--height6 {
+
+      height: auto;
+    }
+    .grid-item--height {
+
+      height: auto;
+    }
+
+
+
+    .tlt .word18 {
+      color: #0081FE;
+    }
+
+    /*portfolio3 css*/
+    @media (min-width: 320px) and (max-width: 575px) {
+
+
+       [class^=imghvr-] figcaption.porfolio3_figcaption6, [class^=imghvr-] figcaption.porfolio3_figcaption3,
+       [class^=imghvr-] figcaption.porfolio3_figcaption5,[class^=imghvr-] figcaption.porfolio3_figcaption4,
+       [class^=imghvr-] figcaption.porfolio3_figcaption8
+
+
+       {
+        top:49%;
+      }
+      [class^=imghvr-] figcaption.porfolio3_figcaption2, [class^=imghvr-] figcaption.porfolio3_figcaption7
+      {
+        top:75%;
+      }
+
+
+      .grid-item {
+        padding-left: 13px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) {
+      [class^=imghvr-] figcaption.porfolio3_figcaption6, [class^=imghvr-] figcaption.porfolio3_figcaption3,
+      [class^=imghvr-] figcaption.porfolio3_figcaption5,[class^=imghvr-] figcaption.porfolio3_figcaption4,
+      [class^=imghvr-] figcaption.porfolio3_figcaption8
+
+
+      {
+        top:62%;
+      }
+      [class^=imghvr-] figcaption.porfolio3_figcaption4, [class^=imghvr-] figcaption.porfolio3_figcaption6
+      {
+        top:72%
+      }
+      [class^=imghvr-] figcaption.porfolio3_figcaption2, [class^=imghvr-] figcaption.porfolio3_figcaption7
+      {
+        top:82%;
+      }
+      .grid-item {
+        width: 100%;
+      }
+
+    }
+
+    .portfolio3 [class^=imghvr-] {
+      background-color: #000;
+
+    }
+    .portfolio3 [class^=imghvr-] figcaption {
+      background: none;
+    }
+    .portfolio3 [class^=imghvr-fade]:hover > img {
+      opacity: 0.3;
+    }
+    [class^=imghvr-] figcaption h6 {
+      font-weight: 600;
+    }
+
+    [class^=imghvr-] .porfolio3_figcaption1 {
+
+      top: 211px;
+      left: 19px;
+    }
+    [class^=imghvr-] .porfolio3_figcaption2, [class^=imghvr-] .porfolio3_figcaption6, [class^=imghvr-] .porfolio3_figcaption7 {
+
+      top: 80%;
+      left: 0;
+    }
+    [class^=imghvr-] .porfolio3_figcaption6, [class^=imghvr-] .porfolio3_figcaption7 {
+      left: 0;
+    }
+    .figcaption {
+      display: none;
+    }
+    [class^=imghvr-] .porfolio3_figcaption8 {
+      top: 59%;
+      left: 0
+    }
+    [class^=imghvr-] .porfolio3_figcaption4 {
+      top: 80%;
+    }
+    [class^=imghvr-] .porfolio3_figcaption3 {
+      top: 59%;
+    }
+    [class^=imghvr-] .porfolio3_figcaption5, [class^=imghvr-] .porfolio3_figcaption5, [class^=imghvr-] .porfolio3_figcaption9 {
+      top: 59%;
+      left: 0;
+    }
+
+    .portfolio3 .home_text-color {
+      color: #8799a3;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      [class^=imghvr-] .porfolio3_figcaption2,
+      [class^=imghvr-] .porfolio3_figcaption6,
+      [class^=imghvr-] .porfolio3_figcaption7 {
+        top: 77%;
+      }
+      [class^=imghvr-] .porfolio3_figcaption3,
+      [class^=imghvr-] .porfolio3_figcaption5,
+      [class^=imghvr-] .porfolio3_figcaption5,
+      [class^=imghvr-] .porfolio3_figcaption9 {
+        top: 50%;
+      }
+      [class^=imghvr-] .porfolio3_figcaption4 {
+        top: 77%;
+      }
+      [class^=imghvr-] .porfolio3_figcaption8 {
+        top: 52%;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+
+      [class^=imghvr-] .porfolio3_figcaption3 {
+        top: 21%;
+      }
+      [class^=imghvr-] .porfolio3_figcaption5 {
+        top: 33%;
+      }
+
+      [class^=imghvr-] .porfolio3_figcaption4 {
+        top: 66%
+      }
+      [class^=imghvr-] .porfolio3_figcaption8 {
+        top: 17%;
+      }
+
+      [class^=imghvr-] .porfolio3_figcaption7, [class^=imghvr-] .porfolio3_figcaption6 {
+        top: 69%;
+      }
+      [class^=imghvr-] .porfolio3_figcaption2, [class^=imghvr-] .porfolio3_figcaption7 {
+        top: 63%;
+      }
+
+    }
+  }
+
+    @media (min-width: 320px) and (max-width: 575px) {
+
+    }
+    .submenu {
+      position: absolute;
+      right: 59px;
+      top: 45px;
+      z-index: 9999;
+    }
+    .submenu1 {
+      position: absolute;
+      right: 68px;
+      top: 45px;
+      z-index: 9999;
+    }
+
+    .menu_hide {
+      display: none !important;
+    }
+
+    .box_padding {
+
+      padding-right: 15px;
+    }
+
+    @media (min-width: 576px) and (max-width: 768px) {
+
+      .submenu li {
+        font-size: 12px;
+      }
+    }
+    @media (min-width: 320px) and (max-width: 320px) {
+      .submenu .li-res-top {
+        font-size: 10px;
+        position: relative;
+        top: 66px;
+      }
+      .li-res-top1 {
+        position: relative;
+        right: 0;
+        left: 45px;
+        top: -44px;
+      }
+    }
+    @media (min-width: 375px) and (max-width: 424px) {
+
+      .submenu .li-res-top {
+        font-size: 10px;
+        position: relative;
+        top: 66px;
+      }
+      .li-res-top1 {
+
+        position: relative;
+        right: 0;
+        left: 48px;
+        top: -22px;
+      }
+    }
+    @media (min-width: 425px) and (max-width: 575px) {
+      .submenu .li-res-top {
+        font-size: 10px;
+        position: relative;
+        top: 66px;
+      }
+      .li-res-top1 {
+
+        position: relative;
+        right: 0;
+        left: 151px;
+        top: -22px;
+      }
+    }
+.home_filter-menu-group ul .active
+{
+  color:#8799a3;
+}
+.home_filter-menu-group ul li:hover
+{
+  color:#8799A3;
+}
+
+
+
+
+
+

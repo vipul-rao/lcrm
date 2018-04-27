@@ -1,0 +1,53 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'staffs' => 'スタッフ', 
+'new' => '新しいスタッフ', 
+'edit' => 'スタッフを編集する', 
+'delete_staff' => 'スタッフの削除', 
+'show_staff' => 'スタッフを表示する', 
+'details' => 'スタッフの詳細', 
+'full_name' => 'フルネーム', 
+'email' => 'Eメール', 
+'register' => '登録', 
+'first_name' => 'ファーストネーム', 
+'last_name' => '苗字', 
+'phone_number' => '電話', 
+'password' => 'パスワード', 
+'password_confirmation' => 'パスワードの確認', 
+'user_avatar' => 'ユーザーのアバター', 
+'read' => '読む', 
+'write' => '書きます', 
+'delete' => '削除', 
+'permissions' => 'アクセス許可', 
+'sales_teams' => 'セールスチーム', 
+'invoices' => '請求書', 
+'sales_orders' => '受注', 
+'quotations' => '見積もり', 
+'products' => '製品', 
+'meetings' => 'ミーティング', 
+'logged_calls' => 'ログされたコール', 
+'opportunities' => '機会', 
+'leads' => 'リード', 
+'staff' => 'スタッフ', 
+'contacts' => '連絡先', 
+'info' => '一般的な情報', 
+'login' => 'ユーザーログイン', 
+'date_time' => '日付時刻', 
+'ip_address' => 'IPアドレス', 
+'invite' => '招待', 
+'invite_cancel' => '招待をキャンセルする', 
+'invite_limit_exceed' => '招待カウントがプランの制限を超えているため、招待状を送信できません', 
+'invite_staffs' => 'スタッフを招待する', 
+'accept_invitation' => '招待を受け入れました', 
+'cancel_invitation' => '招待をキャンセルする', 
+'send_invitation' => '招待状を送る', 
+'emails' => '電子メールのリスト（セミコロンで区切られた）', 
+'invalid-email' => 'あなたのサイトのメールアドレスを確認してください', 
+'customers' => '顧客', 
+
+ 
+];

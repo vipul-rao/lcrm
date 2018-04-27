@@ -1,0 +1,136 @@
+@import "header";
+@import "footer";
+@import "menu";
+@import "freelancer_styles";
+@import "standardpoststyles";
+@import "singleimg_styles";
+
+.btn-success:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+}
+
+.typography
+{
+    .typography_btndefault
+    {
+        border-radius: 30px;
+    }
+    .bg-light
+    {
+        background-color: #f8f9fa !important;
+    }
+    @media (min-width: 320px) and (max-width: 575px)
+    {
+        .card_width
+        {
+            width: 18.2rem !important;
+        }
+    }
+    .styles_nav{
+        padding:0.5rem 1rem;
+    }
+}
+.input:focus
+{
+    box-shadow: none;
+}
+label.required:after {
+    color: #fc4141;
+    content: "*";
+    font-weight: bold;
+    margin-left: 5px;
+}
+//error messages
+.form-group.has-error .help-block,.form-group.has-error label{
+    color: #fc4141;
+}
+#nav_custom{
+    background-color: #e7e9ec;
+}
+
+.font_28{
+    font-size: 28px;
+}
+.font_18{
+    font-size: 18px;
+}
+.text_light {
+    color: #888;
+}
+
+.navbar .user_avatar {
+    width: 35px;
+    height: 35px;
+    margin-top: -5px;
+}
+#app{
+    min-height: 100vh;
+}
+.stdpost_form-group input:focus, .stdpost_form-group textarea:focus{
+    box-shadow: none;
+}
+
+//badges
+.badges {
+    position: absolute;
+    top: -18px;
+    left: 0;
+}
+.badge_left .badge_content {
+    border-bottom-right-radius: 5px;
+}
+.badge_content {
+    position: absolute;
+    left: -12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.bg-purple {
+    background-color: #937eff!important;
+}
+.badge_left .badge_content:after {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    content: '';
+    border: 6px solid transparent;
+}
+.badge_left .badge_purple:after {
+    border-top-color: #937eff;
+    border-right-color: #937eff;
+}
+
+.media-left {
+    padding-right: 30px;
+}
+.m-b-30{
+    margin-bottom: 30px;
+}
+.m-t-30{
+    margin-top: 30px;
+}
+.m-t-50{
+    margin-top: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.features_section{
+    font-family: 'Open Sans', sans-serif;
+}
+.features_section p{
+    font-size: 16px;
+}
+.features_section{
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Open Sans', sans-serif;
+    }
+}

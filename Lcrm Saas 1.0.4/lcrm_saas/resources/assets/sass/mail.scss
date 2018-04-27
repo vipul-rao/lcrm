@@ -1,0 +1,107 @@
+.btn-danger {
+    background-color: #fc4141 !important;
+    color: #fff;
+}
+
+#inbox-check tr td a {
+    display: block;
+    color: #666;
+}
+
+#inbox-check tr td .col {
+    color: #d5d5d5;
+}
+
+.view-message img {
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.mail-search {
+    max-width: 300px;
+}
+
+.mail-box-header {
+    padding: 0 5px 5px 5px;
+    font-weight: 600;
+}
+
+.mail-compose {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+/*end */
+
+#inbox-check h3 {
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.mail-sender,
+.attachment-mail {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+    border-top: 1px solid #EFF2F7;
+    border-bottom: 1px solid #EFF2F7;
+    padding: 10px 0;
+}
+
+/*new mail box css start*/
+
+a.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:hover,
+button.list-group-item:focus {
+    background-color: #FFCE54;
+    color: #fff;
+}
+
+a.list-group-item.active {
+    background-color: #FFCE54 !important;
+    color: #fff;
+}
+
+.mail {
+    display: block;
+    padding: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.mail:last-child {
+    border-bottom: none;
+}
+
+.mail img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user_img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*reply section css*/
+
+#reply span {
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+
+.list-group-item {
+    padding: 5px;
+}
+
+.list-group-item a {
+    display: block;
+    padding: 5px;
+}

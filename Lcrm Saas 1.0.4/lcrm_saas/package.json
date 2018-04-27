@@ -1,0 +1,50 @@
+{
+    "name": "lcrm-saas",
+    "description": "Next generation CRM web application.",
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "cross-env": "^5.1.3",
+        "laravel-mix": "^2.0.0"
+    },
+    "dependencies": {
+        "animate.css": "^3.6.1",
+        "axios": "^0.17.1",
+        "bootstrap": "^4.0.0",
+        "c3": "^0.4.21",
+        "datatables.net": "^1.10.16",
+        "datatables.net-bs4": "^1.10.16",
+        "flatpickr": "^4.3.2",
+        "font-awesome": "^4.7.0",
+        "fullcalendar": "^3.8.2",
+        "gmap3": "^7.2.0",
+        "icheck": "^1.0.2",
+        "imagehover.css": "ciar4n/imagehover.css",
+        "imagesloaded": "^4.1.4",
+        "isotope-layout": "^3.0.5",
+        "jasny-bootstrap": "^3.1.3",
+        "jquery": "^3.3.1",
+        "lobibox": "~1.0.0",
+        "material-design-icons": "^3.0.1",
+        "moment": "^2.20.1",
+        "pace-progress": "^1.0.2",
+        "popper.js": "^1.12.9",
+        "pusher-js": "^4.2.2",
+        "select2": "^4.0.4",
+        "select2-bootstrap-theme": "^0.1.0-beta.10",
+        "textillate": "^0.4.1",
+        "toastr": "^2.1.4",
+        "vue": "^2.5.13",
+        "vue-multiselect": "^2.0.8",
+        "vue-router": "^3.0.1",
+        "wow.js": "^1.2.2"
+    }
+}

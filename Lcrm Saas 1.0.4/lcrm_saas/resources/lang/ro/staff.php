@@ -1,0 +1,53 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'staffs' => 'Personal', 
+'new' => 'Personal nou', 
+'edit' => 'Editați personalul', 
+'delete_staff' => 'Ștergeți personalul', 
+'show_staff' => 'Arată personalul', 
+'details' => 'Detaliile personalului', 
+'full_name' => 'Numele complet', 
+'email' => 'E-mail', 
+'register' => 'Inregistreaza-te', 
+'first_name' => 'Nume', 
+'last_name' => 'Numele de familie', 
+'phone_number' => 'Telefon', 
+'password' => 'Parola', 
+'password_confirmation' => 'Confirmarea parolei', 
+'user_avatar' => 'Avatar utilizator', 
+'read' => 'Citit', 
+'write' => 'Scrie', 
+'delete' => 'Șterge', 
+'permissions' => 'Permisiuni', 
+'sales_teams' => 'Echipe de vânzări', 
+'invoices' => 'facturile', 
+'sales_orders' => 'Comenzile de vânzări', 
+'quotations' => 'Cotațiile', 
+'products' => 'Produse', 
+'meetings' => 'Întâlniri', 
+'logged_calls' => 'Apeluri înregistrate', 
+'opportunities' => 'Oportunități', 
+'leads' => 'Oportunitati', 
+'staff' => 'Personal', 
+'contacts' => 'Contacte', 
+'info' => 'Informatii generale', 
+'login' => 'Înregistrările utilizatorilor', 
+'date_time' => 'Data ora', 
+'ip_address' => 'adresa IP', 
+'invite' => 'A invita', 
+'invite_cancel' => 'Anulați invitația', 
+'invite_limit_exceed' => 'Invitațiile nu pot fi trimise deoarece numărul de invitații depășește limita de plan', 
+'invite_staffs' => 'Invitați personalul', 
+'accept_invitation' => 'Invitație acceptată', 
+'cancel_invitation' => 'Anulați invitația', 
+'send_invitation' => 'Trimite invitatia', 
+'emails' => 'Listare e-mailuri (împărțit prin punct și virgulă)', 
+'invalid-email' => 'Verificați adresa dvs. de e-mail a site-ului', 
+'customers' => 'clienţii', 
+
+ 
+];

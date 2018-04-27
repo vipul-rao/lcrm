@@ -1,0 +1,76 @@
+/* single image page css*/
+
+.containersetting
+{
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.border_setting
+{
+  border-bottom: 2px solid #252525;
+  width: 137px;
+  line-height: 4;
+
+}
+
+.button_success
+{
+  padding: 21px 27px 18px 24px;
+}
+.button_purchasenow,.button_postcomment
+{
+  padding: 21px 65px 18px 65px;
+}
+@media (min-width: 320px) and (max-width: 425px)
+{
+  .col_margin
+  {
+    margin-top: -81px;
+  }
+  .res-row-single-mtop
+  {
+    margin-top: 8rem;
+  }
+
+}
+.single_imagespacing
+{
+  margin-bottom: 37px;
+}
+
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+.singleimage [class^=imghvr-]
+{
+  background-color: #000;
+
+}
+.singleimage [class^=imghvr-] figcaption
+{
+  background:none;
+}
+.singleimage [class^=imghvr-fade]:hover>img
+{
+  opacity: 0.3;
+}
+
+@media(min-width:576px) and (max-width: 767px){
+  .button_purchasenow, .button_postcomment {
+    padding: 18px 20px 18px 20px;
+  }
+}
+

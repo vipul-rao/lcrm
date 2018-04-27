@@ -1,0 +1,132 @@
+$btn-primary : #0081ff;
+
+$img-box-shadow : 2px 8px 20px 8px rgb(230, 229, 229);
+
+
+$card-box-shadow : 0px 15px 145px 10px rgba(0, 0, 0, 0.12);
+$reply-box-shadow : 0px 3px 20px 0px rgba(28, 28, 28, 0.23);
+$bg-white:#fff;
+$header_color:#252525;
+$sub-navbar-hover:#868e96;
+$text-gray: rgba(135, 153, 163, 255);;
+$head-bold:900;
+
+
+$white:   #fff !default;
+$blue:    #0081FF !default;
+$red:    #f04e4e !default;
+$green:   #3AB54A !default;
+$gray:    #8799a3 !default;
+$light:   #1cbbb4 !default;
+$yellow:  #ff9700   !default;
+$colors: (
+        blue: $blue,
+        red: $red,
+        green: $green,
+        white: $white,
+        info:$light,
+        warning:$yellow
+) !default;
+$theme-colors: (
+        primary: $blue,
+        success: $green,
+        secondary: $gray,
+        danger: $red,
+        light: $gray,
+        info:$light,
+        warning:$yellow
+) !default;
+
+//buttons colors
+$brand-primary:         #0081FF   !default;
+$brand-success:         #3AB54A   !default;
+$brand-info:            #1cbbb4   !default;
+$brand-warning:         #ff9900   !default;
+$brand-danger:          #FF4550   !default;
+//text colors
+$text-primary : #0081FF !default;
+$text-success:  $brand-success !default;
+$text-danger: #FF4550 !default;
+$text-gray: #636363 !default;
+$text-dark: #252525 !default;
+
+//Headers font size
+$h1-font-size: 2.625rem !default;
+$h2-font-size: 2.25rem !default;
+$h3-font-size: 2rem !default;
+$h4-font-size: 1.75rem !default;
+$h5-font-size: 1.5rem !default;
+$h6-font-size: 1.25rem !default;
+//Header Font family
+$headings-font-family:   'Montserrat', sans-serif !default;
+$headings-font-weight:   900 !default;
+$headings-color:         $text-dark !default;
+
+$head-bold-color: #252525 !default;
+// Links
+//
+// Style anchor elements.
+$link-hover-decoration: none !default;
+//Buttons
+$btn-success: $brand-success !default;
+$btn-font-weight:                 700 !default;
+$btn-sm-font-size:               14px !default;
+
+//buttons
+$btn-font-weight:                $font-weight-normal !default;
+
+
+//Buttons padding;
+$input-btn-padding-y-sm:    0.875rem !default;
+$input-btn-padding-x-sm:    1.75rem !default;
+$input-btn-line-height-sm:  1.5 !default;
+
+$input-btn-line-height-lg:  1.5 !default;
+
+//button boxshadow
+$btn-font-weight:                $font-weight-normal !default;
+$btn-primary-box-shadow:                 0px 15px 51px 15px rgba(0, 129, 255, 0.15) !default;
+$btn-primary-hover-box-shadow:            0px 15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+$btn-primary-focus-box-shadow:           0px 15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+$btn-primary-active-box-shadow:          0px -15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+//Success box-shadow
+$btn-font-weight:                $font-weight-normal !default;
+$btn-primary-box-shadow:                 0px 15px 51px 15px rgba(58, 181, 74, 0.15) !default;
+$btn-primary-hover-box-shadow:            0px 15px 51px 15px rgba(58, 181, 74, 0.30) !default;
+$btn-primary-focus-box-shadow:           0px 15px 51px 15px rgba(58, 181, 74, 0.30) !default;
+$btn-primary-active-box-shadow:          0px -15px 51px 15px rgba(58, 181, 74, 0.30) !default;
+//danger box-shadow
+$btn-font-weight:                $font-weight-normal !default;
+$btn-primary-box-shadow:                 0px 15px 51px 15px rgba(0, 129, 255, 0.15) !default;
+$btn-primary-hover-box-shadow:            0px 15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+$btn-primary-focus-box-shadow:           0px 15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+$btn-primary-active-box-shadow:          0px -15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+//Default box-shadow
+$btn-font-weight:                $font-weight-normal !default;
+$btn-primary-box-shadow:                 0px 15px 51px 15px rgba(0, 129, 255, 0.15) !default;
+$btn-primary-hover-box-shadow:            0px 15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+$btn-primary-focus-box-shadow:           0px 15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+$btn-primary-active-box-shadow:          0px -15px 51px 15px rgba(0, 129, 255, 0.30) !default;
+$header-bold:900;
+$btn-default-padding: 14px 35px 11px 35px !default;
+$btn-default-color:#6DBDF6 !default;
+$btn-default-bg:#ecf0f3 !default;
+$text-white: #fff !default;
+//Btn section
+$btn-default-padding: 14px 35px 11px 35px;
+//brn-success
+$btn-success-color:              #fff !default;
+$btn-success-bg:                 $brand-success !default;
+$btn-success-border:             $brand-success !default;
+$input-btn-success-padding:        25px 54px !default;
+
+
+$bold-font-weight:bold;
+
+//Font family
+$font-family-sans-serif:  'Montserrat', sans-serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+
+$header-tag-font-weight:600;

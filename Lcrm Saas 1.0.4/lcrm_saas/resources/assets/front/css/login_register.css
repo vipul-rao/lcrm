@@ -1,0 +1,118 @@
+/* Fonts Imported from Google */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
+/*   Core: General style
+----------------------------*/
+
+body {
+    font-family : 'Open Sans', sans-serif;
+    height      : 100%;
+}
+.content{
+    padding: 5% 0;
+}
+#sign-in, #sign-up {
+    background : #fff;
+}
+.signup-form, .signin-form {
+    background      : url("../img/street.jpg");
+    background-size : cover;
+    border-radius   : 14px;
+    padding-top     : 15px;
+    padding-bottom  : 15px;
+    color           : #fff;
+}
+.box-color{
+    display: block;
+    position: relative;
+}
+.signup-form:before, .signin-form:before {
+    content       : '';
+    position      : absolute;
+    width         : 100%;
+    height        : 100%;
+    top           : 0;
+    left          : 0;
+    border-radius : 14px;
+    opacity       : 0.8;
+    background    : linear-gradient(to left, #2B3566, #371D4C);
+}
+.panel-header h2 {
+    margin-top    : 10px;
+    margin-bottom : 17px;
+}
+.signup-form .page-name, .signin-form .page-name {
+    margin-left : 14px;
+    font-size   : 19px;
+    font-weight : 700;
+}
+.signup-form .page-name.active,
+.signin-form .page-name.active {
+    border-bottom : 3px solid #3197D6;
+    border-radius : 5px;
+}
+.sign_validator {
+    margin-top : 20px;
+}
+.signup-form label, .signin-form label {
+    margin-left : 14px;
+    color       : rgba(255, 255, 255, .8);
+}
+.forgot_pw, .forgot_pw:hover, .forgot_pw:focus {
+    color : rgba(255, 255, 255, .8);
+}
+.checkbox label.checkbox_label {
+    color : #fff;
+}
+.form-control {
+    color            : #FFF;
+    background-color : rgba(255, 255, 255, .2);
+    border           : 1px solid rgba(255, 255, 255, .1);
+    border-radius    : 20px;
+}
+input[type="submit"].btn-block.btn-primary,
+input[type="reset"].btn-block.btn-primary,
+input[type="button"].btn-block.btn-primary {
+    border-color  : #3295ff;
+    background    : #3295ff;
+    border-radius : 20px;
+}
+.icheckbox_minimal-blue {
+    background-position : -20px 0;
+}
+a:hover, a:focus {
+    text-decoration : none;
+    color           : #3295ff;
+}
+.has-error .help-block, .has-error .control-label,
+.has-error .radio, .has-error .checkbox,
+.has-error .radio-inline, .has-error .checkbox-inline {
+    color : #fc4141;
+}
+.has-error .form-control, .has-error .form-control:focus {
+    border-color : #fc4141;
+    box-shadow   : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.has-success .form-control, .has-success .form-control:focus {
+    border-color : #2daf57;
+    box-shadow   : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.radio label,
+.checkbox label {
+    padding-left : 0;
+}
+.has-error.checkbox label, .has-success.checkbox label {
+    color : #FFF;
+}
+hr.separator {
+    border           : 0;
+    height           : 1px;
+    position         : relative;
+    margin           : 25px 0 15px 0;
+    background-image : linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.15))
+}
+a.white{
+    color: #fff;
+}
+.form-control::placeholder {
+    color: #999 !important;
+}

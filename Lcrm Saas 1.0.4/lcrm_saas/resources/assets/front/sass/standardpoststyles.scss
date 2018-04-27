@@ -1,0 +1,165 @@
+/* Standard post page css*/
+
+@media (min-width:320px) and (max-width: 575px)  {
+  .navbar
+  {
+    position: relative;
+  }
+  .stdpost_bgimg
+  {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 578px;
+  }
+  #nav_standardpost
+  {
+    padding: 0 0 15rem 0;
+  }
+
+}
+
+.stdpost_mtop1
+{
+  margin-top: 7rem;
+}
+.stdpost_mleft
+{
+  margin-left:-80px;
+  margin-top: 15px;
+}
+.stdpost_fontsetting
+{
+  font-family: 'Coustard', serif;
+}
+.h5font18
+{
+  font-size: 18px;
+  cursor: pointer;
+}
+p
+{
+  color: rgba(99, 99, 99, 255);
+  font-size: 18px;
+}
+
+.stdpost_para,.stdpost_para1
+{
+  font-size: 16px;
+  color:#8799a3;
+}
+.stdpost_para1{
+  color:#bbc7cd;
+}
+.stdpost_para_margin
+{
+  margin-left: -8px;
+}
+.stdpost_form-group
+{
+
+  margin-bottom: 2rem;
+}
+.stdpost_form-group input
+{
+  border-radius: 50px;
+  padding:19px 47px 15px 47px;
+  background-color: #F3F4F6;
+  border-color :#F3F4F6;
+  color:#8799A3;
+}
+.form-control:focus
+{
+  border: 1px solid #8799a3;
+  color: #8799A3;
+}
+.stdpost_form-group textarea
+{
+  padding:19px 47px 15px 47px;
+  background-color: #F3F4F6;
+  border:1px solid #F3F4F6;
+  border-radius: 20px;
+}
+.stdpost_btn-mbottom
+{
+  margin-bottom: 7rem;
+}
+.quoteleft-icon
+{
+  position: relative;
+  left: 0px;
+  top: 43px;
+  z-index: -1;
+  font-size: 55px;
+
+}
+.stdpost_date_margin
+{
+  margin-top: 8px;
+}
+@media (max-width: 1024px)
+{
+  .stdpost_parafont
+  {
+    font-size: 13px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px)
+{
+  .stdpost_h2font24
+  {
+    font-size: 24px;
+  }
+  .stdpost_h2font22
+  {
+    font-size: 22px;
+  }
+  .stdpost_parafont16
+  {
+    font-size: 16px;
+  }
+  .stdpost_btn-primary
+  {
+    padding: 11px 23px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .stdpost_date_margin
+  {
+    font-size: 21px;
+  }
+}
+.has-error .help-block, .has-error .input-group-addon, .has-error .radio, .has-error .radio-inline {
+  color: #f04e4e !important;
+}
+.has-error input{
+  border-color:#f04e4e !important;
+}
+.has-error textarea{
+  border-color:#f04e4e !important;
+}
+.has-success input{
+  border-color:#39b54a !important;
+}
+.has-success textarea{
+  border-color:#39b54a !important;
+}
+.has-success .check{
+  display:block;
+  color: #39b54a;
+}
+.check{
+  display:none;
+  position: absolute;
+
+  right: 45px;
+  top: 20px;
+}
+.text_primary{
+  color: #0081ff;
+  cursor: pointer;
+}
+
+
+

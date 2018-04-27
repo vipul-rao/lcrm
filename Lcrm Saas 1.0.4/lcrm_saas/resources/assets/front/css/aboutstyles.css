@@ -1,0 +1,471 @@
+/* about studio css*/
+
+#nav_aboutstudio {
+    background-image: url("../images/menu_heder.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-position: center center;
+}
+
+.port4_text_padding {
+    padding: 28rem 0 0 0;
+}
+
+.text_padding {
+    padding: 25rem 0 6rem 1rem;
+}
+
+.containerfluid {
+    padding-left: 0;
+}
+
+.colset {
+    padding: 5rem 5rem 0 5rem;
+    margin-top: -2rem;
+}
+
+.background_color,
+.backgroundcolor1 {
+    background-color: #f3f4f6;
+}
+
+.backgroundcolor1 {
+    margin-top: -112px;
+}
+
+.MeetTeam_section [class^=imghvr-] {
+    background: none;
+    overflow: hidden;
+}
+
+.cursor_line {
+    cursor: pointer;
+}
+
+.carousel-control-next {
+    right: -74px;
+    opacity: 1;
+}
+
+.carousel .carousel-control-prev:focus,
+.carousel-control-prev:hover,
+.carousel-control-next:focus,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+.carousel-control-prev {
+    left: -74px;
+    opacity: 1;
+}
+
+.carousel .carousel-control-prev:focus,
+.carousel-control-prev:hover,
+.carousel-control-next:focus,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+.carousel-indicators li {
+    height: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carousel-item img {
+    position: relative;
+    left: 0;
+    top: 41px;
+    z-index: -1;
+}
+
+.overlay,
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5 {
+    position: absolute;
+    top: 101px;
+    bottom: 0;
+    left: 14px;
+    right: 0;
+    height: 61px;
+    width: 61px;
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    background-color: #9babb5;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.MeetTeam_section .img_boxshadow {
+    -webkit-box-shadow: 0 3px 55px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 55px -5px rgba(0, 0, 0, 0.4);
+}
+
+.overlay1 {
+    left: 87px;
+}
+
+.overlay2 {
+    left: 158px;
+}
+
+.overlay3 {
+    left: 231px;
+}
+
+.overlay4 {
+    top: 48.5%;
+    left: 15px;
+}
+
+.overlay5 {
+    top: 48.5%;
+    left: 23%;
+}
+
+.overlay:hover,
+.overlay1,
+.overlay2:hover,
+.overlay3:hover,
+.overlay4:hover,
+.overlay5:hover {
+    opacity: 0.5;
+}
+
+.text_color1 {
+    color: #8799A2;
+}
+
+.text_hover:hover {
+    color: #8799A2;
+}
+
+.text_hover h6:hover,
+.text_hover img:hover {
+    color: #8799A2;
+    cursor: pointer;
+}
+
+.row_padding {
+    padding: 7rem 0;
+}
+
+.carousel_row_padding {
+    padding: 5rem 0 7rem 0;
+}
+
+.about_row-padding {
+    padding: 3rem 0 3rem 0;
+}
+
+.about_img .img-fluid {
+    height: 475px;
+    width: auto;
+}
+
+.MeetTeam_section {
+    margin-top: 5rem;
+}
+
+.about_figure {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    /* Standard syntax */
+    margin-top: -7rem;
+}
+
+.carousel-indicators {
+    bottom: -35px;
+}
+
+.carousel-indicators li {
+    background-color: #e1e2e4;
+    width: 20px;
+}
+
+.carousel-indicators .active {
+    background-color: #8799A2;
+}
+
+.about_logo,
+.about_logo1,
+.about_logo2 {
+    opacity: 0.3;
+}
+
+.about_logo:hover {
+    opacity: 1;
+}
+
+.logo-section .rowpadding1 {
+    padding: 6rem 0;
+}
+
+.logo-section img {
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .MeetTeam_section .overlay4 {
+        left: 4%;
+    }
+}
+
+@media (max-width: 320px) {
+    .MeetTeam_section .overlay2 {
+        left: 159px;
+    }
+
+    .MeetTeam_section .overlay4 {
+        left: 4.3%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+    .text_setting {
+        margin-top: 1rem;
+    }
+
+    #nav_aboutstudio {
+        background-position: right -205px center;
+        height: auto;
+    }
+
+    .res-row-mtop1 {
+        margin-top: -13rem;
+    }
+
+    .about_res_imgmargin {
+        margin-top: 7rem;
+    }
+
+    .backgroundcolor1 {
+        margin-top: 0;
+    }
+
+    .MeetTeam_section .row_padding {
+        padding: 0;
+    }
+
+    .overlay4 {
+        top: 181px;
+        left: 4.57%;
+    }
+
+    .overlay5 {
+        top: 182px;
+        left: 86px;
+    }
+
+    .carousel-control-next {
+        right: -15px;
+        top: 47px;
+    }
+
+    .carousel-control-prev {
+        left: -16px;
+        top: 47px;
+    }
+
+    .desingstudio {
+        padding-right: 0;
+    }
+
+    .colset {
+        padding-left: 2rem;
+    }
+
+    .colset h3 {
+        font-size: 22px;
+    }
+
+    .colset padding {
+        font-size: 14px;
+    }
+
+    .carousel-item h5 {
+        font-size: 22px;
+    }
+
+    .carousel-item h3 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575px) {
+    .overlay {
+        top: 99px;
+        left: 14px;
+    }
+
+    .overlay2 {
+        left: 160px;
+    }
+
+    .overlay4 {
+        top: 101px;
+        left: 71.5%;
+    }
+
+    .overlay5 {
+        top: 185px;
+        left: 14px;
+    }
+
+    .carousel-control-next {
+        right: -14px;
+        top: 47px;
+    }
+
+    .carousel-control-prev {
+        left: -25px;
+        top: 47px;
+    }
+
+    .carousel-item h5 {
+        font-size: 22px;
+    }
+
+    .about_res_imgmargin {
+        margin-top: 7rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .backgroundcolor1 {
+        margin-top: -11%;
+    }
+
+    .overlay {
+        top: 98px;
+        left: 14px;
+    }
+
+    .overlay2 {
+        left: 159px;
+    }
+
+    .overlay1,
+    .overlay3 {
+        top: 100px;
+    }
+
+    .overlay4 {
+        top: 61%;
+        left: 14px;
+    }
+
+    .overlay5 {
+        top: 61%;
+        left: 27%;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .colset {
+        padding: 3.5rem 5rem 0 5rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .overlay {
+        left: 14px;
+    }
+
+    .overlay2 {
+        left: 160px;
+    }
+
+    .overlay4 {
+        top: 181px;
+        left: 4%;
+    }
+
+    .overlay5 {
+        top: 44%;
+        left: 24%;
+    }
+
+    .carousel-item h5 {
+        font-size: 18px;
+    }
+
+    .carousel-control-next {
+        right: 0;
+        top: 47px;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+        top: 47px;
+    }
+
+    .desingstudio {
+        padding-right: 0;
+    }
+
+    .colset {
+        padding-left: 3rem;
+    }
+
+    .about_figure {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .about_img .img-fluid {
+        height: auto;
+    }
+
+    .colset {
+        padding-bottom: 6rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .colset {
+        padding-bottom: 6rem;
+        padding-right: 15px;
+        padding-left: 2rem;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .overlay4 {
+        top: 48%;
+    }
+
+    .overlay5 {
+        top: 48%;
+        left: 84px;
+    }
+}
+
+.MeetTeam_section figure {
+    display: inline-block;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .MeetTeam_section .overlay1 {
+        top: 138px;
+    }
+
+    .MeetTeam_section {
+        margin-bottom: 4rem;
+    }
+}
+

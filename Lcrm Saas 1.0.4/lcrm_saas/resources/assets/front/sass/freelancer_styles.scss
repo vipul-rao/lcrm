@@ -1,0 +1,368 @@
+/*free lancer page css*/
+
+.h1after{
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0;
+}
+.h1after:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: 0;
+  width: 100px;
+  border-bottom: 3px solid;
+}
+.freelaner_text_padding
+{
+  padding: 25rem 0 6rem 1rem;
+}
+
+
+.freelancer_exp_mtop
+{
+  padding-top: 7rem;
+}
+.freelancer_btnalign
+{
+  display: inline-block;
+}
+//timeline code
+
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  background: rgba(128, 128, 128, 0.16);
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 46%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: -12%;
+  box-shadow: 2px -1px 20px 12px #eee;
+}
+
+.timeline ul li:hover::after {
+  background-color: #0081ff !important;
+  color: #fff;
+}
+
+.timeline ul li:hover::after {
+  content: '';
+  position: absolute;
+  left: 46%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  top: -12%;
+  box-shadow: 1px 3px 14px 0 #0081ff !important;
+}
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 553px;
+  padding: 15px;
+  top:-22px;
+  left :20px;
+}
+.timeline ul li:hover {
+  background-color: #0081ff;
+}
+
+
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+
+.timeline ul li:hover div h6  {
+  color: #0081ff;
+
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.years_font {
+  margin-right: 9rem;
+  font-size: 17px;
+}
+.text_font {
+
+  font-size: 14px;
+}
+.freelanceraspects:hover .brand,.freelanceraspects:hover .web,.freelanceraspects:hover .develope,
+.freelanceraspects:hover .photo,.freelanceraspects:hover .art,.freelanceraspects:hover .content
+{
+  transform: rotate(360deg);
+  transition-duration: 1s;
+  cursor: pointer;
+}
+.freelanceraspects
+{
+  cursor: pointer;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: grey;
+}
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+.timeline .circle1 {
+
+  top: 20px !important;
+}
+
+
+.inner_circle {
+  background-color: rgba(134, 142, 150, 0.46);
+  padding: 4px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1090;
+  right: 251px;
+  top: 24px;
+}
+
+.timeline li:hover .inner_cirlce,.timeline li:hover .inner_cirlce1
+{
+  background-color: #fff !important;
+    padding: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: 93%;
+    z-index: 1090;
+    right: 393px;
+}
+
+
+//.circle {
+//  top: 45%;
+//}
+//.circle_2 {
+//  top: 44%;
+//}
+
+.timeline ul li:hover .inner_circle {
+  background-color: #fff !important;
+}
+
+
+
+@media(min-width:576px)and(max-width:767px){
+ .timeline span.inner_circle1 {
+
+    top: 39px !important;
+  }
+
+}
+@media(min-width:320px)and(max-width:575px){
+  .timeline span.inner_circle1 {
+
+    top: 30px !important;
+  }
+
+}
+@media (min-width:320px)  and (max-width: 767px){
+  .row_padding
+  {
+    padding: 4rem 0;
+  }
+  .mrgn_right {
+    margin-right:0;
+  }
+  .years_font {
+    margin-right: 9rem;
+    font-size: 14px;
+  }
+  .text_font {
+    font-size: 11px;
+  }
+  .timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    background: rgba(128, 128, 128, 0.16);
+    left:1rem;
+  }
+
+  .inner_circle{
+    right :241px;
+    top :30px;
+  }
+
+
+}
+
+@media (min-width: 992px) and (max-width:1319px) {
+  .inner_circle
+  {
+    right: 221px;
+    top :25px;
+  }
+  .timeline ul li div
+  {
+    width:480px;
+  }
+  .circle1
+  {
+    top:16%;
+  }
+
+}
+@media (min-width: 768px) and (max-width:991px ) {
+
+  .timeline ul li div
+  {
+    width: 372px;
+  }
+  .inner_circle
+  {
+    right: 176px;
+    top :23px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px){
+  .timeline ul li div{
+    width :380px;
+  }
+  .inner_circle
+  {
+    right: 179px;
+    top: 23px;
+  }
+  .circle1{
+    top:16%;
+  }
+}
+
+
+
+
+//timeline end
+.about_history p
+{
+  margin-bottom: 0;
+}
+
+.textlines1
+{
+  margin-top: 58px;
+
+}
+.textlines1,.textlines p
+{
+  font-size: 16px;
+}
+.freelancer_blog1,.freelancer_blog2{
+  background-color: #faf8fc;
+}
+
+.para_margin
+{
+  margin-top: -15px;
+}
+.button_primary, .button_white
+{
+  border-radius: 50px;
+  padding: 21px 27px 18px 24px;
+}
+.button_white:hover
+{
+  box-shadow:0 3px 55px -5px rgba(0, 0, 0, 0.4);
+}
+.button_white
+{
+  background-color: white;
+  box-shadow: 0 3px 16px -5px rgba(0, 0, 0, 0.4);
+  color:#8799a3;
+}
+@media(min-width: 576px) and (max-width: 767px)
+{
+  .inner_circle
+  {
+    right: 134px;
+    top:39px;
+  }
+  .timeline ul li div
+  {
+    width:270px;
+    top :-30px;
+  }
+  .circle1{
+    right: 133px;
+    top: 39%;
+  }
+  .freelancer_exp_mtop {
+    padding-bottom: 7rem;
+  }
+}
+@media (min-width:320px) and (max-width:575px) {
+.freelaner_text_padding
+{
+  padding: 8rem 0 3rem 1rem;
+}
+  #nav_freelancer
+  {
+    background-position: left top;
+  }
+  .timeline ul li div
+  {
+    width:238px;
+    top :-30px;
+  }
+
+}
+.freelancer_span{
+  font-size: 14px;
+  color: rgba(135, 153, 163, 255);
+  font-weight :normal;
+}
+@media(min-width: 320px) and (max-width: 551px)
+{
+  .adjust_space{
+    margin-top: 1.5rem;
+  }
+
+}
+@media(min-width:320px) and (max-width:575px){
+  .circle
+  {
+    top:34px;
+  }
+
+}
+
+

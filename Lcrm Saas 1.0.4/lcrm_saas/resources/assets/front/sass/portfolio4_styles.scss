@@ -1,0 +1,208 @@
+/*portfolio-4 css*/
+ul li
+{
+  font-family: 'Montserrat',sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.container .row .ulmargin0
+{
+  margin: 0;
+}
+
+#nav_portfolio-4
+{
+  background-image: url("/images/front/portpolio4/portfolio_bgimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 762px;
+}
+.portfolio4_row
+{
+  margin-left: 0 !important;
+}
+.grid
+{
+  width:100%;
+}
+.grid-item
+{
+  width: 33.33%;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .grid
+  {
+    width:100%;
+  }
+  .grid-item
+  {
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  #nav_portfolio-4
+  {
+    height: auto;
+  }
+  .text_padding {
+    padding: 18rem 0 0 1rem;
+  }
+  .port4_text_padding
+  {
+    padding:  8rem 0 5rem 1rem;
+  }
+  .portfolio4 [class^=imghvr-] figcaption
+  {
+    top:93px !important;
+  }
+  .grid
+  {
+    width:100%;
+  }
+  .grid-item
+  {
+    width: 100%;
+  }
+
+
+}
+
+.portfolio4 [class^=imghvr-] figcaption {
+  background: none;
+  top:153px;
+}
+.portfolio4 [class^=imghvr-] {
+  background-color:#2894fb;
+  overflow: visible;
+
+}
+.text_font14
+{
+font-size: 14px;
+}
+.font16
+{
+  font-size: 16px;
+}
+.portfolio4 [class^=imghvr-fade]:hover>img
+{
+  opacity: 0.3;
+
+}
+.grid_padding
+{
+  margin-bottom: 30px;
+}
+
+.portfolio4_menu li:hover, .portfolio4_menu  li:focus,.portfolio4_menu .active
+{
+  color:#8799a3;
+}
+li{
+  color:#252525;
+}
+//pagination
+.light-theme a,.light-theme span,.light-theme a:hover,.light-theme span:hover
+{
+  color:rgba(37, 37, 37, 255);
+  font-weight: bolder;
+  box-shadow: none;
+}
+.pagination ul > li > a,.pagination ul > li > span
+{
+  border: none;
+}
+.pagination ul>.active>a, .pagination ul>.active>span
+{
+  font-weight: bolder;
+}
+.light-theme .current
+{
+  box-shadow: none;
+}
+.pagination ul>li:last-child>a
+{
+  position: absolute;
+  right: 18px !important;
+}
+.pagination ul>li:first-child>.prev
+{
+  position: absolute;
+  left: 22px !important;
+}
+
+.pagination ul>li>a
+{
+  background-color: #f5f5f5;
+}
+.light-theme a
+{
+  background: #FCFCFC;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .pagination ul > li:first-child > .prev {
+    position: absolute;
+    left: -20px;
+    top: 11px;
+  }
+
+  .pagination ul > li:last-child > a {
+    position: absolute;
+    top: 11px;
+    right: -12px;
+  }
+
+
+}
+.pagination_bottom
+{
+  margin-bottom: 7rem;
+}
+.portfolio4_menu ul .active {
+  color: #8799a3;
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .portfolio4 [class^=imghvr-] figcaption
+  {
+    position: absolute;
+    top:42px !important;
+  }
+  .portfolio4_menu li
+  {
+    font-size: 12px;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .portfolio4 [class^=imghvr-] figcaption
+  {
+    top:93px !important;
+  }
+
+}
+.portfolio4_hide
+{
+  display: none !important;
+}
+
+.portfolio4_iconsetting
+{
+  margin-left: 42px;
+  position: relative;
+  top: 22px;
+  left: 32px;
+}
+.portfolio4 .grid-item
+{
+  margin-bottom: 30px;
+}
+
+.portfolio4_menuicon2 .menu_toggle_img1
+{
+  display: none;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,357 @@
+/*home page css*/
+
+#nav_homepage {
+    background-image: url("../images/home_frontimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+}
+
+.mtop {
+    padding: 11rem 0;
+}
+
+.headertext1_font-family {
+    font-family: 'Leckerli One', cursive;
+    color: #707070;
+}
+
+.home_filter-menu-group1 ul .active {
+    color: #8799a3;
+}
+
+.home_h1font52 {
+    font-size: 52px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.home_filter-menu-group1 ul .li-item:hover {
+    color: #8799A3;
+}
+
+@media (max-width: 375px) {
+    .home_h1font52 {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    #nav_homepage {
+        background-position: left center;
+    }
+
+    .mtop {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .home_h1font52 {
+        font-size: 42px;
+    }
+}
+
+.hello {
+    font-family: 'Leckerli One', cursive;
+}
+
+.tlt .word18 {
+    color: #0081FE;
+    font-weight: 900;
+}
+
+.albedo-color {
+    color: #0081FE;
+}
+
+.btnsecondary {
+    border-radius: 50px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .home_h1font52 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1440px) {
+    .col_padding1 {
+        padding-right: 0;
+    }
+
+    .col_padding2 {
+        padding-left: 0;
+    }
+
+    .col_padding {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .img_setting {
+        position: relative;
+        top: -264px;
+    }
+}
+
+.list-inline-item a {
+    text-decoration: none;
+}
+
+.home_imgmargin {
+    margin-top: -16px;
+}
+
+.home_img {
+    margin-left: -15px;
+}
+
+.home {
+    /* force scrollbar, prevents initial gap */
+    /* ---- grid ---- */
+    /* clear fix */
+    /* ---- .element-item ---- */
+    /* 5 columns, percentage width */
+    /*portfolio3 css*/
+}
+
+.home * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.home html {
+    overflow-y: scroll;
+}
+
+.home body {
+    font-family: sans-serif;
+}
+
+.home .grid {
+    width: 100%;
+}
+
+.home .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.home .grid-item,
+.home .grid-sizer {
+    width: 33.33%;
+}
+
+.home .grid-item {
+    float: left;
+}
+
+.home .grid-item--width2 {
+    width: 66.66%;
+}
+
+.home .grid-item--width4 {
+    width: 100%;
+}
+
+.home .grid-item--width6 {
+    width: 33.33%;
+}
+
+.home .grid-item--height2 {
+    height: auto;
+}
+
+.home .grid-item--height3 {
+    height: auto;
+}
+
+.home .grid-item--height4 {
+    height: auto;
+}
+
+.home .grid-item--height5 {
+    height: auto;
+}
+
+.home .grid-item--height6 {
+    height: auto;
+}
+
+.home .grid-item--height {
+    height: auto;
+}
+
+.home .tlt .word18 {
+    color: #0081FE;
+}
+
+.home .grid-item {
+    margin-bottom: -8px;
+}
+
+.home [class^=imghvr-] figcaption {
+    padding: 0;
+}
+
+.home .portfolio3 [class^=imghvr-] {
+    background-color: #000;
+}
+
+.home .portfolio3 [class^=imghvr-] figcaption {
+    background: none;
+}
+
+.home .portfolio3 [class^=imghvr-fade]:hover > img {
+    opacity: 0.3;
+}
+
+.home [class^=imghvr-] figcaption h6 {
+    font-weight: 600;
+}
+
+.home [class^=imghvr-] .porfolio3_figcaption1 {
+    top: 211px;
+    left: 19px;
+}
+
+.home [class^=imghvr-] .porfolio3_figcaption2,
+.home [class^=imghvr-] .porfolio3_figcaption6,
+.home [class^=imghvr-] .porfolio3_figcaption7 {
+    top: 219px;
+    left: 0;
+}
+
+.home [class^=imghvr-] .porfolio3_figcaption6,
+.home [class^=imghvr-] .porfolio3_figcaption7 {
+    left: 0;
+}
+
+.home [class^=imghvr-] .porfolio3_figcaption8 {
+    top: 94px;
+    left: 4px;
+}
+
+.home [class^=imghvr-] .porfolio3_figcaption4 {
+    top: 187px;
+}
+
+.home [class^=imghvr-] .porfolio3_figcaption3 {
+    top: 129px;
+}
+
+.home [class^=imghvr-] .porfolio3_figcaption5,
+.home [class^=imghvr-] .porfolio3_figcaption9 {
+    top: 94px;
+    left: 0;
+}
+
+.home .portfolio3 .home_text-color {
+    color: #8799a3;
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption5,
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption9 {
+        top: 74px;
+        left: 0;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption4 {
+        top: 147px;
+        left: 4px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption8 {
+        top: 79px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption2,
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption7 {
+        top: 187px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption6 {
+        top: 157px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption4 {
+        top: 118px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption3 {
+        top: 86px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption8,
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption5 {
+        top: 60px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption2,
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption7 {
+        top: 128px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption1 {
+        top: 127px;
+        left: 19px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption4 {
+        top: 118px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption3 {
+        top: 48px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption6 {
+        top: 76px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption4 {
+        top: 81px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption5 {
+        top: 30px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption8 {
+        top: 30px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption2,
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption7 {
+        top: 101px;
+    }
+
+    .home .portfolio3 [class^=imghvr-] .porfolio3_figcaption1 {
+        top: 102px;
+        left: 19px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .home .portfolio3 [class^=imghvr-] figcaption {
+        display: none;
+    }
+}
+
+.home_icon .menu_toggle_icon1 {
+    display: none;
+    margin-bottom: 23px;
+}
+
+.home_filter-menu-group1 .active {
+    color: #8799a3;
+}
+

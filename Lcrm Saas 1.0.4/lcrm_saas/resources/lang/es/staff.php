@@ -1,0 +1,53 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'staffs' => 'Personal', 
+'new' => 'Personal nuevo', 
+'edit' => 'Editar personal', 
+'delete_staff' => 'Eliminar el personal', 
+'show_staff' => 'Mostrar el personal', 
+'details' => 'Detalles del personal', 
+'full_name' => 'Nombre completo', 
+'email' => 'Email', 
+'register' => 'Registro', 
+'first_name' => 'Nombre de pila', 
+'last_name' => 'Apellido', 
+'phone_number' => 'Teléfono', 
+'password' => 'Contraseña', 
+'password_confirmation' => 'confirmación de contraseña', 
+'user_avatar' => 'Avatar del usuario', 
+'read' => 'Leer', 
+'write' => 'Escribir', 
+'delete' => 'Borrar', 
+'permissions' => 'Permisos', 
+'sales_teams' => 'Equipos de ventas', 
+'invoices' => 'Facturas', 
+'sales_orders' => 'Ordenes de venta', 
+'quotations' => 'Citas', 
+'products' => 'Productos', 
+'meetings' => 'Reuniones', 
+'logged_calls' => 'Llamadas registradas', 
+'opportunities' => 'Oportunidades', 
+'leads' => 'Conductores', 
+'staff' => 'Personal', 
+'contacts' => 'Contactos', 
+'info' => 'Información general', 
+'login' => 'Inicio de sesión de usuario', 
+'date_time' => 'Fecha y hora', 
+'ip_address' => 'dirección IP', 
+'invite' => 'Invitación', 
+'invite_cancel' => 'Cancelar invitación', 
+'invite_limit_exceed' => 'No se pueden enviar invitaciones ya que el recuento de invitaciones excede el límite de su plan', 
+'invite_staffs' => 'Invitar personal', 
+'accept_invitation' => 'Invitación aceptada', 
+'cancel_invitation' => 'Cancelar invitación', 
+'send_invitation' => 'Enviar invitacion', 
+'emails' => 'Lista de correos electrónicos (divididos por punto y coma)', 
+'invalid-email' => 'Verifique la dirección de correo electrónico de su sitio', 
+'customers' => 'Clientes', 
+
+ 
+];

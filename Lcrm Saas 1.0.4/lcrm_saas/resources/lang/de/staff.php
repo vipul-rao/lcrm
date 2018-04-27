@@ -1,0 +1,53 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'staffs' => 'Mitarbeiter', 
+'new' => 'Neue Mitarbeiter', 
+'edit' => 'Mitarbeiter bearbeiten', 
+'delete_staff' => 'Personal löschen', 
+'show_staff' => 'Mitarbeiter anzeigen', 
+'details' => 'Mitarbeiterdetails', 
+'full_name' => 'Vollständiger Name', 
+'email' => 'Email', 
+'register' => 'Registrieren', 
+'first_name' => 'Vorname', 
+'last_name' => 'Familienname, Nachname', 
+'phone_number' => 'Telefon', 
+'password' => 'Passwort', 
+'password_confirmation' => 'Passwort Bestätigung', 
+'user_avatar' => 'Benutzeravatar', 
+'read' => 'Lesen', 
+'write' => 'Schreiben', 
+'delete' => 'Löschen', 
+'permissions' => 'Berechtigungen', 
+'sales_teams' => 'Verkaufsteams', 
+'invoices' => 'Rechnungen', 
+'sales_orders' => 'Kundenaufträge', 
+'quotations' => 'Zitate', 
+'products' => 'Produkte', 
+'meetings' => 'Meetings', 
+'logged_calls' => 'Protokollierte Anrufe', 
+'opportunities' => 'Chancen', 
+'leads' => 'Führt', 
+'staff' => 'Mitarbeiter', 
+'contacts' => 'Kontakte', 
+'info' => 'Allgemeine Information', 
+'login' => 'Benutzeranmeldungen', 
+'date_time' => 'Terminzeit', 
+'ip_address' => 'IP Adresse', 
+'invite' => 'Einladen', 
+'invite_cancel' => 'Einladung abbrechen', 
+'invite_limit_exceed' => 'Einladungen können nicht gesendet werden, da die Anzahl der Einladungen Ihr Planlimit überschreitet', 
+'invite_staffs' => 'Mitarbeiter einladen', 
+'accept_invitation' => 'Einladung angenommen', 
+'cancel_invitation' => 'Einladung abbrechen', 
+'send_invitation' => 'Einladung senden', 
+'emails' => 'E-Mails auflisten (durch Semikolon geteilt)', 
+'invalid-email' => 'Überprüfen Sie Ihre Website-E-Mail-Adresse', 
+'customers' => 'Kunden', 
+
+ 
+];

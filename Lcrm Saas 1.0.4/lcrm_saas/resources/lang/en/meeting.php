@@ -1,0 +1,35 @@
+<?php
+
+return [
+
+    "meetings" => "Meetings",
+    "new" => "New meeting",
+    "create" => "Create Meeting",
+    "edit" => "Edit meeting",
+    "delete" => "Delete meeting",
+    "details" => "Meeting details",
+    "responsible" => "Responsible",
+    "meeting_subject" => "Meeting Subject",
+    "starting_date" => "Starting date",
+    "ending_date" => "Ending date",
+    "attendees" => "Attendees",
+    "location" => "Location",
+    "meeting_description" => "Meeting description",
+    "all_day" => "All day",
+    "privacy" => "Privacy",
+    "show_time_as" => "Show Time as",
+    "opportunity_meetings" => "Opportunity meetings",
+    "opportunity_new" => "New opportunity meeting",
+    "opportunity_edit" => "Edit opportunity meeting",
+    "opportunity_delete" => "Delete opportunity meeting",
+    "calendar" => "Calendar",
+    "select_responsible" => "Select a Responsible filed",
+    "create_meeting" => "Create Meeting",
+    "team_leader" => "Team Leader",
+    "company_attendees" => "Company Attendees",
+    "staff_attendees" => "Staff Attendees",
+    "meeting_create" => "Create Meeting",
+    "company_name" => "Company Name",
+    "everyone" => "Everyone",
+    "onlyme" => "Only me"
+];

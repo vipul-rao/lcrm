@@ -1,0 +1,53 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'staffs' => 'Funcionários', 
+'new' => 'Nova equipe', 
+'edit' => 'Editar equipe', 
+'delete_staff' => 'Excluir equipe', 
+'show_staff' => 'Mostrar pessoal', 
+'details' => 'Detalhes da equipe', 
+'full_name' => 'Nome completo', 
+'email' => 'O email', 
+'register' => 'registo', 
+'first_name' => 'Primeiro nome', 
+'last_name' => 'Último nome', 
+'phone_number' => 'telefone', 
+'password' => 'Senha', 
+'password_confirmation' => 'ConfirmaÇão Da Senha', 
+'user_avatar' => 'Avatar do usuário', 
+'read' => 'Ler', 
+'write' => 'Escreva', 
+'delete' => 'Excluir', 
+'permissions' => 'Permissões', 
+'sales_teams' => 'Equipes de vendas', 
+'invoices' => 'Faturas', 
+'sales_orders' => 'Ordens de venda', 
+'quotations' => 'Citações', 
+'products' => 'Produtos', 
+'meetings' => 'Reuniões', 
+'logged_calls' => 'Chamadas Registradas', 
+'opportunities' => 'Oportunidades', 
+'leads' => 'Conduz', 
+'staff' => 'Funcionários', 
+'contacts' => 'Contatos', 
+'info' => 'Informações gerais', 
+'login' => 'Logins de usuários', 
+'date_time' => 'Data hora', 
+'ip_address' => 'endereço de IP', 
+'invite' => 'Convite', 
+'invite_cancel' => 'Cancelar convite', 
+'invite_limit_exceed' => 'Não é possível enviar convites porque a contagem de convites excede o limite do seu plano', 
+'invite_staffs' => 'Convide equipes', 
+'accept_invitation' => 'Convite Aceito', 
+'cancel_invitation' => 'Cancelar convite', 
+'send_invitation' => 'Enviar convite', 
+'emails' => 'Listar emails (divididos por ponto e vírgula)', 
+'invalid-email' => 'Verifique o seu endereço de e-mail do site', 
+'customers' => 'clientes', 
+
+ 
+];

@@ -1,0 +1,53 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'staffs' => 'Personel', 
+'new' => 'Yeni personel', 
+'edit' => 'Personeli düzenle', 
+'delete_staff' => 'Personeli sil', 
+'show_staff' => 'Çalışanları göster', 
+'details' => 'Personel detayları', 
+'full_name' => 'Ad Soyad', 
+'email' => 'E-posta', 
+'register' => 'Kayıt olmak', 
+'first_name' => 'İsim', 
+'last_name' => 'Soyadı', 
+'phone_number' => 'Telefon', 
+'password' => 'Parola', 
+'password_confirmation' => 'Şifre onayı', 
+'user_avatar' => 'Kullanıcı avatarı', 
+'read' => 'okumak', 
+'write' => 'Yazmak', 
+'delete' => 'silmek', 
+'permissions' => 'İzinler', 
+'sales_teams' => 'Satış ekipleri', 
+'invoices' => 'Faturalar', 
+'sales_orders' => 'Satış Siparişleri', 
+'quotations' => 'Alıntılar', 
+'products' => 'Ürünler', 
+'meetings' => 'Toplantılar', 
+'logged_calls' => 'Kayıtlı Aramalar', 
+'opportunities' => 'Fırsatlar', 
+'leads' => 'İlanlar', 
+'staff' => 'Personel', 
+'contacts' => 'İletişim', 
+'info' => 'Genel Bilgi', 
+'login' => 'Kullanıcı girişleri', 
+'date_time' => 'Tarih zamanı', 
+'ip_address' => 'IP adresi', 
+'invite' => 'Davet et', 
+'invite_cancel' => 'Davetiye iptal et', 
+'invite_limit_exceed' => 'Davet sayısı, plan limitinizi aştığında davetiye gönderilemez', 
+'invite_staffs' => 'Personeli davet et', 
+'accept_invitation' => 'Davetiye Kabul Edildi', 
+'cancel_invitation' => 'Davetiye iptal et', 
+'send_invitation' => 'Davetiye gönder', 
+'emails' => 'E-postaları listele (noktalı virgülle bölünmüş)', 
+'invalid-email' => 'Site E-posta Adresinizi Kontrol Edin', 
+'customers' => 'Müşteriler', 
+
+ 
+];

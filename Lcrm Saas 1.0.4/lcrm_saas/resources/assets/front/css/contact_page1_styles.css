@@ -1,0 +1,119 @@
+/*contact page1 css code*/
+
+#nav_contact_page1 {
+    background-image: url(../images/contact_page_background1.png);
+    height: 796px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact_textarea {
+    border-radius: 30px;
+}
+
+.map {
+    height: 463px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 2px 50px 6px #d4d5d6;
+    box-shadow: -1px 2px 50px 6px #d4d5d6;
+}
+
+.contact1_span {
+    color: #252525;
+}
+
+.text_primary {
+    color: #0081ff;
+    cursor: pointer;
+}
+
+.contact_form input,
+.contact_form textarea {
+    padding: 19px 47px 15px 47px;
+}
+
+.contact_form {
+    margin-bottom: 7rem;
+}
+
+.contact_page2_padding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact_page2_hr {
+    width: 160px;
+    height: 3px;
+    background-color: #252525;
+    margin-left: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact_button:hover {
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    #nav_contact_page1 {
+        height: auto;
+    }
+
+    .contact_feedback {
+        margin-top: 4rem;
+    }
+}
+
+.contact_get {
+    margin-bottom: 35px;
+}
+
+.contact_input_margin {
+    margin-top: 8px;
+}
+
+.contact_margin {
+    margin-top: 7rem;
+}
+
+.contact_form .has-error .help-block,
+.contact_form .has-error .input-group-addon,
+.contact_form .has-error .radio,
+.contact_form .has-error .radio-inline {
+    color: #f04e4e !important;
+}
+
+.contact_form .has-error input {
+    border-color: #f04e4e !important;
+}
+
+.contact_form .has-error textarea {
+    border-color: #f04e4e !important;
+}
+
+.contact_form .has-success input {
+    border-color: #39b54a !important;
+}
+
+.contact_form .has-success textarea {
+    border-color: #39b54a !important;
+}
+
+.contact_form .has-success .check {
+    display: block;
+    color: #39b54a;
+}
+
+.contact_form .check {
+    display: none;
+    position: absolute;
+    right: 45px;
+    top: 20px;
+}
+
+.contact_form .form-group label,
+.contact_form .form-group .has-error .help-block {
+    margin-left: 25px;
+}
+

@@ -1,0 +1,100 @@
+
+.logo {
+    background-color: transparent;
+    margin-left: 41%;
+}
+.logo-wrapper {
+    background-color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+li.active {
+    background-color: #3295ff;
+}
+li.active a {
+    color: #f5f5f5;
+}
+.top_logo{
+    background-color: #333333;
+}
+.header_padd{
+    padding: 20px 0;
+}
+.wizard_section .steps{
+    border-bottom: 1px solid #efefef;
+    box-shadow: 0 1px 5px #aaa;
+    color: #747474;
+    background-color: #f9f9f9;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.wizard_section ul{
+    margin-bottom: 0;
+}
+.steps-li{
+    padding: 0;
+}
+.steps-li a{
+    display: block;
+    padding: 15px 10px;
+    color: #000;
+}
+.steps .list-inline{
+    margin-left: 0;
+    background-color: #fff;
+}
+.steps .list-inline > li{
+    padding-left: 0;
+    padding-right: 0;
+}
+.steps-li .selected{
+    background-color: #3295ff;
+}
+.steps-li.active {
+    color: #fff !important;
+}
+.steps-li .selected.done{
+    background-color: #fff;
+    color: #000;
+}
+.blade-fileh{
+    padding: 15px;
+}
+.header_bottom{
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 5px;
+}
+.list-group-item{
+    border:  1px solid #ddd;
+}
+.step-content .form-group{
+    margin-bottom: 10px;
+}
+h3{
+    margin: 0;
+    line-height:34px;
+    font-size: 22px;
+}
+.Steps-mar {
+    margin-left: 5px;
+}
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding: 10px 30px 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.m-l-20{
+    margin-left: 20px;
+}
+.label-default{
+    background-color:#7EC4E7;
+}
+.list-group .list-group-item{
+    padding: 10px 15px;
+}

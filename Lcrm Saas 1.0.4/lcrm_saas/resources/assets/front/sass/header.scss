@@ -1,0 +1,209 @@
+/*This is Header CSS*/
+
+.header_row
+{
+  position: absolute;
+  right: 104px;
+}
+
+.hide
+{
+  display: none;
+  transition: all 5s ease;
+}
+
+.menubar
+{
+
+  margin-top: 40px;
+  margin-right: 2px;
+
+}
+.menuicon
+{
+  position: relative;
+
+}
+.menuicon1{
+  position : relative;
+}
+.navbar
+{
+  z-index: 999;
+  position: relative;
+  padding: 0.5rem 0;
+}
+.navbar-brand
+{
+  margin-top: 15px;
+
+}
+.navbar-nav
+{
+  position: relative;
+  top: 4px;
+  right: -6px;
+  font-weight: bold;
+  color:black;
+
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+  color:black;
+  padding:0 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link:hover {
+  color:#3295ff;
+}
+.listgroup
+{
+  position: absolute;
+  //display: none;
+}
+
+.list-group-item,a
+{
+  color:#000;
+
+
+}
+
+
+
+
+
+.navbar-nav .dropdown-menu li:hover a{
+  background-color: #0081FF !important;
+  color: #fff !important;
+}
+.navbar-nav .sub-menu-parent .list-group-item a,.navbar-nav .dropdown .dropdown-menu a
+{
+  padding: 0.75rem 1.25rem;
+  display: block;
+  margin-bottom: -1px;
+}
+.navbar-nav .sub-menu-parent .list-group-item
+{
+  padding: 0;
+}
+
+
+.navbar-nav .dropdown-menu .active a {
+  color: white !important;
+  background-color: #0081FF !important;
+
+
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(37, 37, 37, 255);
+
+}
+.btn
+{
+  font-family: 'Montserrat', sans-serif;
+  color:#ffffff;
+}
+h1
+{
+  font-size: 42px;
+
+}
+@media(min-width:320px) and (max-width:425px){
+  .hide{
+    display:block;
+  }
+  .navbar-nav
+  {
+    right: 0;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 1rem 0;
+  }
+
+}
+@media(min-width:320px) and (max-width:575px) {
+
+  .dropdown a {
+    text-align: left;
+  }
+}
+@media (min-width: 426px) and (max-width: 767px)
+{
+
+
+  .navbar-light .navbar-nav .link-padding {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .dropdown a {
+    text-align: left;
+  }
+}
+@media(min-width:576px) and (max-width:992px) {
+  .navbar-light .navbar-nav .nav-link
+
+  {
+    padding: 1rem 8px;
+    font-size :12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .navbar-expand-md .navbar-nav .dropdown-menu  {
+    top:32px;
+  }
+}
+.navbar-light .navbar-nav .close1
+{
+  padding-left: 38px;
+}
+// cart icon styles
+.cart_bag_primary{
+  padding :3px 6px;
+  position: absolute;
+  top: 47px;
+  left: 18px;
+}
+.cart_menu_icon{
+  margin-right :10px;
+}
+
+//dropdowncss
+
+.dropdown ul
+{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.dropdown-menu
+{
+  top:17px;
+  border-radius: 0;
+}
+.dropdown .dropdown-menu .dropdown-divider
+{
+  margin: 0;
+}
+
+.dropdown:hover ul,.dropdown ul:hover{
+  display: block;
+}
+.dropdown .btn
+{
+  box-shadow: none;
+}
+
+.site_logo{
+  max-width: 120px;
+  height: 40px;
+}
+//dropdown css end

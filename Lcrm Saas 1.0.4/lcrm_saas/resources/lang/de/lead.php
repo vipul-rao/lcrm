@@ -1,0 +1,51 @@
+<?php 
+ 
+/* Translation generated with Laravel gTranslator */
+ 
+ return [  
+ 
+ 'leads' => 'Führt', 
+'new' => 'Lead erstellen', 
+'edit' => 'Blei bearbeiten', 
+'show' => 'Zeigen Sie Blei', 
+'delete' => 'Lead löschen', 
+'details' => 'Teamdetails', 
+'creation_date' => 'Erstellungsdatum', 
+'opportunity' => 'Gelegenheit', 
+'contact_name' => 'Kontaktname', 
+'country' => 'Land', 
+'email' => 'Email', 
+'phone' => 'Telefon', 
+'sales_team' => 'Verkaufsteam', 
+'company_name' => 'Name der Firma', 
+'customer' => 'Kunde', 
+'address' => 'Adresse', 
+'state' => 'Zustand', 
+'city' => 'Stadt', 
+'select_country' => 'Land auswählen', 
+'select_state' => 'Staat wählen', 
+'select_city' => 'Stadt wählen', 
+'salesperson' => 'Verkäufer', 
+'title' => 'Titel', 
+'function' => 'Funktionstyp', 
+'mobile' => 'Handy, Mobiltelefon', 
+'fax' => 'Fax', 
+'tags' => 'Stichworte', 
+'priority' => 'Priorität', 
+'internal_notes' => 'Interne Notizen', 
+'calls' => 'Anrufe', 
+'company' => 'Unternehmen', 
+'product_name' => 'Produktname', 
+'company_site' => 'Unternehmenswebseite', 
+'call' => 'Anruf erstellen', 
+'additionl_info' => 'Zusätzliche Information', 
+'client_name' => 'Kundenname', 
+'agent_name' => 'Agentenname', 
+'personal_info' => 'Persönliche Informationen', 
+'leads_by_priority' => 'Leads nach Priorität', 
+'leads_by_month' => 'Gesamt-Leads nach Monat', 
+'import' => 'Leads importieren', 
+'newupload' => 'Leads hochladen', 
+
+ 
+];
